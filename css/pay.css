@@ -1,0 +1,232 @@
+body{
+	overflow-y: hidden;
+}
+header{
+	width: 100%;
+	height: 1.16rem;
+	background: #f6d84d;
+	display: flex;
+	padding: 0 0.24rem;
+}
+.a{
+	height: 100%;
+	padding-top:0.3rem;
+	display: flex;
+}
+header div .icon-fanhui5{
+	font-size: 0.52rem;
+	color: #fff;
+}
+header .title{
+	width: 50%;
+	height: 1.16rem;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+}
+header .title h3{
+	width: 100%；
+	height:0.3rem;
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.3rem;
+	margin-bottom: 0.15rem;
+	margin-top: 0.18rem;
+}
+header .title h4{
+	width: 100%；
+	height:0.3rem;
+	font-size: 0.2rem;
+	color: #fcf5d9;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.word{
+	width: 100%;
+	height: 2.25rem;
+	background: #fff;
+	padding-left: 0.6rem;
+	padding-top: 0.52rem;
+}
+.word h3{
+	width: 100%;
+	height: 0.5rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.22rem;
+	color: #f6d84d;
+	line-height: 0.5rem;
+}
+.word h3 span{
+	font-size: 0.52rem;
+}
+.word p{
+	width: 100%;
+	height: 0.28rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.2rem;
+	color: #000;
+	line-height: 0.28rem;
+}
+main{
+	width: 100%;
+	padding: 0 0.24rem;
+}
+main .all{
+	width: 100%;
+	height: 10rem;
+	background-image: url(../img/zhifubeijing.png);
+	background-size: 100%;
+	display: flex;
+	padding: 0 0.76rem;
+	flex-flow: column;
+}
+main .all .zhu{
+	width: 100%;
+	height: 1.26rem;
+	margin-top: 1.3rem;
+	display: flex;
+	flex-direction: row;
+}
+main .all .zhu .wechat{
+	width: 2.14rem;
+	height: 1.26rem;
+	background: #84d945;
+	border-radius: 0.1rem;
+	margin-right: 1.26rem;
+	padding: 0.24rem 0 0.24rem 0.16rem;
+	display: flex;
+}
+main .all .zhu .word1{
+	width: 1.24rem;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+main .all .zhu i{
+	width: 0.5rem;
+	height: 0.44rem;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 0.44rem;
+	color: #fff;
+	margin:auto 0;
+	margin-right: 0.16rem;
+}
+main .all .zhu .word1 .title{
+	widows: 100%;
+	height:0.24rem;
+	font-size: 0.22rem;
+	color: #fff;
+	margin-bottom: 0.08rem;
+	line-height: 0.24rem;
+}
+main .all .zhu .word1 h3{
+	width: 100%;
+	height: 0.24rem;
+	font-size: 0.18rem;
+	color: #fff;
+	margin-bottom: 0.03rem;
+	line-height: 0.24rem;
+	font-weight: normal;
+}
+main .all .zhu .word1 h4{
+	width: 100%;
+	height: 0.24rem;
+	font-size: 0.14rem;
+	color: #fff;
+	line-height: 0.24rem;
+	font-weight: normal;
+}
+main .all .zhu .alipay{
+	width: 2.14rem;
+	height: 1.26rem;
+	background: #3fa5fa;
+	border-radius: 0.1rem;
+	display: flex;
+	padding: 0.24rem 0 0.24rem 0.16rem;
+	align-self: flex-end;
+}
+main .all .other{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-self: flex-end;
+	margin-top: 2.16rem;
+}
+main .all .other li{
+	width: 100%;
+	height: 1rem;
+	border-bottom:0.01rem solid #fff;
+	padding: 0.18rem 0 0.18rem 0.18rem;
+	display: flex;
+}
+main .all .other li .tu{
+	width: 0.66rem;
+	height: 0.54rem;
+	display:flex;
+	margin-right: 0.38rem;
+}
+main .all .other li .tu i{
+	width: 100%;
+	height: 100%;
+	font-size: 0.66rem;
+	color: #fff;
+}
+main .all .other li .word2{
+	width: 100%;
+	height: 100%;
+	padding: 0.05rem 0;
+}
+main .all .other li .word2 h3{
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.26rem;
+	margin-bottom: 0.05rem;
+}
+main .all .other li .word2 p{
+	font-size: 0.16rem;
+	color: #fbeebb;
+}
+main .all .other li .num{
+	width: 0.6rem;
+	height: 0.3rem;
+	background: #fff;
+	border-radius: 0.15rem;
+	margin:auto 0;
+	font-size: 0.16rem;
+	color: #f6d84d;
+	text-align: center;
+	line-height: 0.3rem;
+
+}
+main .all .pay{
+	width: 3.14rem;
+	height: 0.52rem;
+	background: #3fa5fa;
+	border-radius: 0.26rem;
+	margin:0 auto;
+	margin-top: 0.82rem;
+	display: flex;
+	justify-content: space-around;
+}
+main .all .pay p{
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.52rem;
+}
+main .all .pay .piont{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: rgba(255,255,255,0.5);
+	border-radius: 50%;
+	margin:auto 0;
+	padding: 0.05rem;
+}
+main .all .pay .piont .dian{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #fff;
+	border-radius: 50%;
+}

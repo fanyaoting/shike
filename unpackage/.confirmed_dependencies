@@ -1,0 +1,143 @@
+{
+  "succ.html": {
+    "href": "succ.html",
+    "resources": [
+      "css/base.css",
+      "css/rem.css",
+      "css/succ.css",
+      "img/shangpintuijian.png",
+      "img/fanhui.png",
+      "img/malaxiangguo.png",
+      "img/pingguopai.png",
+      "img/yinpin.png",
+      "img/hanbao.png"
+    ],
+    "refer": [
+      "list.html",
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "password.html": {
+    "href": "password.html",
+    "resources": [
+      "css/base.css",
+      "css/rem.css",
+      "css/password.css",
+      "img/fanhui.png",
+      "img/yinlian.png"
+    ],
+    "refer": [
+      "pay.html",
+      "succ.html"
+    ],
+    "priority": 0
+  },
+  "pay.html": {
+    "href": "pay.html",
+    "resources": [
+      "css/base.css",
+      "css/rem.css",
+      "css/pay.css",
+      "img/fanhui.png"
+    ],
+    "refer": [
+      "list.html",
+      "password.html"
+    ],
+    "priority": 0
+  },
+  "list.html": {
+    "href": "list.html",
+    "resources": [
+      "css/list.css",
+      "css/base.css",
+      "css/rem.css",
+      "img/daoxiaomian.png",
+      "img/jidanmian.png",
+      "img/niuroumian.png",
+      "img/menmian.png",
+      "img/yangchunmian2.png",
+      "img/plus.png"
+    ],
+    "refer": [
+      "pay.html",
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "my.html": {
+    "href": "my.html",
+    "resources": [
+      "css/base.css",
+      "css/rem.css",
+      "css/my.css",
+      "img/shezhi.png",
+      "img/xiaoxi.png",
+      "img/uzi.jpg",
+      "img/xing.png"
+    ],
+    "refer": [
+      "index.html",
+      "my.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/index.css",
+      "css/base.css",
+      "css/rem.css",
+      "img/banner.png",
+      "img/tuijian.png",
+      "img/youhui.png",
+      "img/fuli.png",
+      "img/taocan.png",
+      "img/zhengcan.png",
+      "img/tiandian.png",
+      "img/chaoshi.png",
+      "img/shengxian.png",
+      "img/yexiao.png",
+      "img/xican.png",
+      "img/zhongcan.png",
+      "img/gengduo.png",
+      "img/lamian.png",
+      "img/niunanmian.png",
+      "img/yangchunmian.png",
+      "img/daoxiaomian.png"
+    ],
+    "refer": [
+      "list.html",
+      "my.html"
+    ],
+    "priority": 0
+  },
+  "login.html": {
+    "href": "login.html",
+    "resources": [
+      "css/base.css",
+      "css/rem.css",
+      "css/login.css",
+      "img/beijing.jpg"
+    ],
+    "refer": [
+      "regis.html",
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "regis.html": {
+    "href": "regis.html",
+    "resources": [
+      "css/base.css",
+      "css/rem.css",
+      "css/regis.css",
+      "img/beijing.jpg"
+    ],
+    "refer": [
+      "login.html"
+    ],
+    "priority": 0
+  }
+}

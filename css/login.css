@@ -1,0 +1,187 @@
+.background{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: absolute;
+	background-image: url(../img/beijing.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.background .black{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	position: relative;
+	top: 0;
+	left: 0;
+	padding:0 0.24rem;
+}
+.background .black .top{
+	width: 100%;
+	height: 0.7rem;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.background .black a{
+	display: block;
+	width: 1.76rem;
+	height: 0.7rem;
+	background: #f6d84d;
+	border-radius: 0.35rem;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.7rem;
+	margin-top: 0.34rem;
+}
+.background .black .box{
+	width: 100%;
+	height: 5.88rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	margin-top: 2.9rem;
+	padding-top: 0.4rem;
+}
+.background .black .box h3{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.32rem;
+	color: #f6d84d;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.background .black .box h4{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.28rem;
+	color: #fae8a3;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.background .black .box .word1{
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 0.6rem;
+	display: flex;
+	padding: 0 0.2rem;
+}
+.background .black .box .word1 i{
+	font-size: 0.4rem;
+	color: #f6d84d;
+	margin-right: 0.15rem;
+}
+.background .black .box .word1 input{
+	border: none;
+	border-bottom: 0.02rem solid #f6d84d;
+}
+.background .black .box .word1 p{
+	font-size: 0.2rem;
+	color: #f6d84d;
+}
+.background .black .box .word2{
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 0.5rem;
+	display: flex;
+	padding: 0 0.2rem;
+}
+.background .black .box .word2 i{
+	font-size: 0.4rem;
+	color: #f6d84d;
+	margin-right: 0.15rem;
+}
+.background .black .box .word2 input{
+	border: none;
+	border-bottom: 0.02rem solid #f6d84d;
+	margin-right: 0.15rem;
+}
+.background .black .box .word2 p{
+	font-size: 0.2rem;
+	color: #f6d84d;
+}
+.background .black .box .word3{
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 0.5rem;
+	display: flex;
+	padding: 0 0.2rem;
+}
+.background .black .box .word3 i{
+	font-size: 0.4rem;
+	color: #f6d84d;
+	margin-right: 0.15rem;
+}
+.background .black .box .word3 input{
+	border: none;
+	border-bottom: 0.02rem solid #f6d84d;
+	margin-right: 0.15rem;
+}
+.background .black .box .word3 p{
+	font-size: 0.2rem;
+	color: #f6d84d;
+}
+.background .black .box .forget{
+	width: 100%;
+	height: 0.3rem;
+	margin-top: 0.24rem;
+	padding-left: 0.7rem;
+	display: flex;
+}
+.background .black .box .forget i{
+	font-size: 0.3rem;
+	color: #999999;
+	margin-right: 0.1rem;
+}
+.background .black .box .forget p{
+	font-size: 0.2rem;
+	color: #999999;
+}
+.background .black .box .zhuce{
+	display: block;
+	width: 1.76rem;
+	height: 0.7rem;
+	background: #999999;
+	border-radius: 0.35rem;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.7rem;
+	margin:0.46rem auto;
+}
+.background .third{
+	width: 100%;
+	height: 0.64rem;
+	margin-top: 0.44rem;
+}
+.background .third h3{
+	width: 100%;
+	height: 0.34rem;
+	font-size: 0.3rem;
+	color: #f6d84d;
+	text-align: center;
+	line-height: 0.34rem;
+}
+.background .third h4{
+	width: 100%;
+	height: 0.26rem;
+	font-size: 0.24rem;
+	color: #bfaa4f;
+	font-weight: normal;
+	text-align: center;
+	line-height: 0.26rem;
+	margin-top: 0.02rem;
+}
+.background .di{
+	width: 100%;
+	height: 0.94rem;
+	margin-top: 0.64rem;
+	display: flex;
+	justify-content: space-around;
+}
+.background .di i{
+	font-size: 0.9rem;
+	color: #f6d84d;
+}
+.background .di a{
+	background: none;
+}
